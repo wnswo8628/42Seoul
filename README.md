@@ -12,19 +12,19 @@
 
 C에 내장된 여러 함수들을 직접 구현하면서 나만의 라이브러리를 만드는 과제
 
-## 2️⃣: ft_printf
+## 2️⃣ ft_printf
 
 ### :heavy_exclamation_mark: printf 함수를 구현해 보기
 
 stdio.h에 내장된 printf함수를 직접 구현해보기
 
-## 3️⃣: get_next_line
+## 3️⃣ get_next_line
 
 ### :heavy_exclamation_mark: 파일 디스크럽터로부터 읽어온 하나의 라인을 반환하는 함수를 작성
 
 read()함수를 사용해 한 파일에 있는 내용을 개행전까지 반환해주는 함수 만들기
 
-## 4️⃣: push_swap
+## 4️⃣ push_swap
 
 ### :heavy_exclamation_mark: 두 개의 스택(A, B)에 들어있는 숫자들을 적절한 연산을 통해 스택A에 들어있는 숫자를 오름차순으로 정렬하기.
 
@@ -56,7 +56,7 @@ rrr: rra와 rrb를 동시에 실행한다.
 매 순간 최적의 경우를 선택하는 알고리즘
 최소한의 연산을 사용하는 숫자를 찾아서 정렬을 함
 
-## 5️⃣: pipex
+## 5️⃣ pipex
 
 ### :heavy_exclamation_mark: shell에서 사용하는 파이프(|)와 동일한 기능을 하는 함수 만들기.
 
@@ -65,20 +65,20 @@ rrr: rra와 rrb를 동시에 실행한다.
 #### :bangbang: 사용할수 있는 함수
 fork, pipe, access, open, close, execve, perror, waitpid
 
-## 6️⃣: so_long
+## 6️⃣ so_long
 
 ### :heavy_exclamation_mark: 미니 2D 게임 만들기!
 
 42에서 제공하는 miniLibX를 이용해서 플레이어가 오브젝트를 먹고 다 먹었을 경우에만 탈출구로 탈출이 가능하도록 하는 게임.
 만약 탈출하는 경로가 막혀있거나 모든 오브젝트를 먹지 못하는 맵일 경우 예외처리하기!(DFS를 사용)
 
-## 7️⃣: Philosophers
+## 7️⃣ Philosophers
 
 ### :heavy_exclamation_mark: 운영체제에서 유명한 문제인 식사하는 철학자 문제를 직접 구현!
 
 쓰레드와 상호배제(mutex)를 이용하여 철학자 문제를 해결하기.
 
-## 8️⃣: minishell
+## 8️⃣ minishell
 
 ### :heavy_exclamation_mark: bash나 zsh 같은 쉘 스크립트를 직접 구현!
 
@@ -86,7 +86,7 @@ fork, pipe, access, open, close, execve, perror, waitpid
 시그널 처리도 해야됨!
 앞서 했던 과제인 파이프도 사용하기!
 
-## 9️⃣: cub3d
+## 9️⃣ cub3d
 
 ### :heavy_exclamation_mark: 이번엔 3D 미로 게임을 구현!
 
@@ -94,12 +94,24 @@ fork, pipe, access, open, close, execve, perror, waitpid
 레이캐스팅을 공부하고 사용해야함!
 맵은 항상 벽으로 둘러싸여 있어야 하고 플레이어는 무조건 1명이여야 하므로 맵 유효성 검사도 하기!
 
-## 🔟: cpp_module00 ~ 09
+## 🔟 cpp_module00 ~ 09
 
 ### :heavy_exclamation_mark: C++의 기본 문법 및 특징들에 대해 실습
 
 C++의 핵심 특징인 상속, 객체, 클래스, 동적할당등 여러 특징들을 직접 구현해보면서 익히기!
 
-## :one: :one: ft_irc
+## :one::one: ft_irc
 
-### :heavy_exclamation_mark: C++의 기본 문법 및 특징들에 대해 실습
+### :heavy_exclamation_mark: IRC(Internet Relay Chat)의 서버를 직접 구현해보기!
+
+소켓통신을 이용해 사설 클라이언트 프로그램으로 클라이언트가 들어오면 클라이언트끼리 통신이 가능하도록 서버를 구현!
+RFC문서를 해석하고 표준을 지키면서 메세지를 통신
+Tcpflow를 통해 서버와 클라이언트간 주고받는 메세지를 확인 후 그대로 메세지를 주고 받으면 된다!
+
+## :one::two: Inception
+
+### :heavy_exclamation_mark: Docker와 docker-compose를 사용하여 여러 도커 파일들을 컨테이너로 올리기!
+
+mariadb, wordpress, nginx 컨테이너들을 각각의 포트로 통신을 하고 최종적으로 wordpress 홈페이지를 띄우면 성공!
+
+Docker-compose : 단일 서버에서 여러개의 컨테이너를 하나의 서비스로 정의해 컨테이너 묶음으로 관리할 수 있게 해주는 도구!
