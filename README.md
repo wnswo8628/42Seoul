@@ -55,3 +55,33 @@ rrr: rra와 rrb를 동시에 실행한다.
 그리디 알고리즘(탐욕 알고리즘)
 매 순간 최적의 경우를 선택하는 알고리즘
 최소한의 연산을 사용하는 숫자를 찾아서 정렬을 함
+
+## 5️⃣: pipex
+
+### :heavy_exclamation_mark: shell에서 사용하는 파이프(|)와 동일한 기능을 하는 함수 만들기.
+
+부모-자식 프로세스간 연결하기!
+
+#### :bangbang: 사용할수 있는 함수
+fork, pipe, access, open, close, execve, perror, waitpid
+
+## 6️⃣: so_long
+
+### :heavy_exclamation_mark: 미니 2D 게임 만들기!
+
+42에서 제공하는 miniLibX를 이용해서 플레이어가 오브젝트를 먹고 다 먹었을 경우에만 탈출구로 탈출이 가능하도록 하는 게임.
+만약 탈출하는 경로가 막혀있거나 모든 오브젝트를 먹지 못하는 맵일 경우 예외처리하기!(DFS를 사용)
+
+## 7️⃣: Philosophers
+
+### :heavy_exclamation_mark: 운영체제에서 유명한 문제인 식사하는 철학자 문제를 직접 구현!
+
+쓰레드와 상호배제(mutex)를 이용하여 철학자 문제를 해결하기.
+
+## 8️⃣: minishell
+
+### :heavy_exclamation_mark: bash나 zsh 같은 쉘 스크립트를 직접 구현!
+
+명령어 파싱에는 토큰이라는 구조를 사용하기!
+시그널 처리도 해야됨!
+앞서 했던 과제인 파이프도 사용하기!
