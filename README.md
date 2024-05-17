@@ -11,3 +11,9 @@
 ### :heavy_exclamation_mark: 나만의 라이브러리 만들기
 
 C에 내장된 여러 함수들을 직접 구현하면서 나만의 라이브러리를 만드는 과제
+
+## 2️⃣: ft_printf
+
+### :heavy_exclamation_mark: printf 함수를 구현해 보기
+
+stdio.h에 내장된 printf함수를 직접 구현해보기
