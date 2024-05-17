@@ -85,3 +85,21 @@ fork, pipe, access, open, close, execve, perror, waitpid
 명령어 파싱에는 토큰이라는 구조를 사용하기!
 시그널 처리도 해야됨!
 앞서 했던 과제인 파이프도 사용하기!
+
+## 9️⃣: cub3d
+
+### :heavy_exclamation_mark: 이번엔 3D 미로 게임을 구현!
+
+42에서 제공하는 miniLibX를 사용해서 3D 미로 게임 구현!
+레이캐스팅을 공부하고 사용해야함!
+맵은 항상 벽으로 둘러싸여 있어야 하고 플레이어는 무조건 1명이여야 하므로 맵 유효성 검사도 하기!
+
+## 🔟: cpp_module00 ~ 09
+
+### :heavy_exclamation_mark: C++의 기본 문법 및 특징들에 대해 실습
+
+C++의 핵심 특징인 상속, 객체, 클래스, 동적할당등 여러 특징들을 직접 구현해보면서 익히기!
+
+## :one: :one: ft_irc
+
+### :heavy_exclamation_mark: C++의 기본 문법 및 특징들에 대해 실습
