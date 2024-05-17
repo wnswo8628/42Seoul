@@ -1,5 +1,5 @@
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=42Seoul&fontSize=90)
-# 42본과정
+# :computer: 42본과정 :computer:
 42서울 본과정때 수행했던 과제들입니다.
 
 ## :pencil2: Skill
