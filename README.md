@@ -4,7 +4,7 @@
 
 ## :pencil2: Skill
 
- <img src="https://img.shields.io/badge/C-3178C6?style=flat&logo=#A8B9CC&logoColor=white"/>
+ <img src="https://img.shields.io/badge/C-3178C6?style=flat&logo=C&logoColor=white"/>
 
 ## libft
 
